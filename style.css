@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 100vh;
 }
 
 .header {
@@ -31,12 +32,11 @@ body {
     background-color: #008970;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 4em 16em;
 }
 .left-1 {
-    width: 330px;
-    padding: 1em;
+    width: 600px;
 }
 .awesome {
     font-size: 48px;
@@ -118,3 +118,4 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
